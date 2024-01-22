@@ -1,0 +1,35 @@
+.font-manrope{
+    font-family: "Manrope", sans-serif;
+}
+
+#text-primary{
+    color: #13131899;
+    font-weight: 500;
+    line-height: 1.625rem;
+}
+
+#secondary-color{
+    color: #FF4240;
+}
+
+#section-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+#accordion-title{
+    color: #131318;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#primary-button{
+    border-radius: 0.5rem;
+    background-color: #FF4240;
+    color: white;
+    padding: 0.9375rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
