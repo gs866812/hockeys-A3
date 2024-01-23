@@ -16,11 +16,120 @@
     <title>Hockey's</title>
 </head>
 <body class="font-manrope">
-    <header>
+    <header class="container mx-auto mt-5 lg:px-16">
+        <nav class="my-4">
+            <div class="navbar lg:p-0">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a id="secondary-color" class="font-semibold">Home</a></li>                    
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" title="Hockey's" class="text-4xl font-extrabold text-[#131318]">Hockey<span id="secondary-color">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a id="secondary-color" class="font-semibold">Home</a></li>                    
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a href="#" id="primary-button" class="py-1 px-3 text-base">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- Banner -->
+        <div class="carousel mx-3 lg:mx-0 rounded-xl relative">
+            <div id="slide1" class="carousel-item relative w-full rounded">
+              <img src="images/banner.png" class="w-full" />
 
+              <div class="bg-black absolute py-4 px-5 rounded-xl w-full lg:w-1/2 top-[110%] lg:top-[65%] lg:left-[45%]">
+                <h2 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-[#ffffff99] mt-4">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                    turpis placerat dolor. Purus urna in sit nullam proin.
+                </p>                
+              </div>
+
+
+              <div class="absolute flex gap-2 items-center transform -translate-y-1/2 left-[43%] top-3/4 lg:top-[90%] lg:left-[50px] lg:right-8">
+                    <a href="#slide4" class="text-white bg-black py-2 px-4 rounded-3xl">❮</a> 
+                    <a href="#slide2" class="text-white bg-black py-2 px-4 rounded-3xl">❯</a>
+              </div>
+            </div> 
+                                <!-- slider-2 -->
+            <div id="slide2" class="carousel-item relative w-full rounded">
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+
+              <div class="bg-black absolute py-4 px-5 rounded-xl w-full lg:w-1/2 top-[110%] lg:top-[65%] lg:left-[45%]">
+                <h2 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-[#ffffff99] mt-4">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                    turpis placerat dolor. Purus urna in sit nullam proin.
+                </p>                
+              </div>
+
+
+              <div class="absolute flex gap-2 items-center transform -translate-y-1/2 left-[45%] lg:top-[90%] top-3/4 lg:left-[50px] lg:right-8">              
+                    <a href="#slide1" class="text-white bg-black py-2 px-4 rounded-3xl">❮</a> 
+                    <a href="#slide3" class="text-white bg-black py-2 px-4 rounded-3xl">❯</a>
+              </div>
+            </div> 
+
+            <!-- slider-3 -->
+
+            <div id="slide3" class="carousel-item relative w-full rounded">
+              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+
+              <div class="bg-black absolute py-4 px-5 rounded-xl w-full lg:w-1/2 top-[110%] lg:top-[65%] lg:left-[45%]">
+                <h2 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-[#ffffff99] mt-4">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                    turpis placerat dolor. Purus urna in sit nullam proin.
+                </p>                
+            </div>
+
+              <div class="absolute flex gap-2 items-center transform -translate-y-1/2 left-[45%] top-3/4 lg:top-[90%] lg:left-[50px] lg:right-8">
+                    <a href="#slide2" class="text-white bg-black py-2 px-4 rounded-3xl">❮</a> 
+                    <a href="#slide4" class="text-white bg-black py-2 px-4 rounded-3xl">❯</a>
+              </div>
+            </div> 
+
+            <!-- slider-4 -->
+
+            <div id="slide4" class="carousel-item relative w-full rounded z-10">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+
+              <div class="bg-black absolute py-4 px-5 rounded-xl w-full lg:w-1/2 top-[110%] lg:top-[65%] lg:left-[45%]">
+                <h2 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-[#ffffff99] mt-4">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                    turpis placerat dolor. Purus urna in sit nullam proin.
+                </p>                
+            </div>
+              <div class="absolute flex gap-2 items-center transform -translate-y-1/2 left-[45%] top-3/4 lg:top-[90%] lg:left-[50px] lg:right-8">
+                    <a href="#slide3" class="text-white bg-black py-2 px-4 rounded-3xl">❮</a> 
+                    <a href="#slide1" class="text-white bg-black py-2 px-4 rounded-3xl">❯</a>
+              </div>
+            </div>
+
+            
+           
+        </div>
     </header>
 
     <!-- Header end here -->
+    
     <main>
 
     </main>
@@ -28,7 +137,7 @@
     <!-- Main end here -->
 
     <footer>
-        
+
     </footer>
 </body>
 </html>

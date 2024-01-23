@@ -1,3 +1,4 @@
+
 .font-manrope{
     font-family: "Manrope", sans-serif;
 }
@@ -29,7 +30,16 @@
     border-radius: 0.5rem;
     background-color: #FF4240;
     color: white;
-    padding: 0.9375rem 1.5rem;
-    font-size: 1.25rem;
-    font-weight: 700;
+
+}
+
+nav li a:hover{
+    background: none!important;
+    color: #FF4240;
+}
+
+#slider-left-button{
+    color: white;
+    border: none;
+    background: #131318;
 }
