@@ -1,3 +1,6 @@
+body{
+    margin: 0 auto;
+}
 
 .font-manrope{
     font-family: "Manrope", sans-serif;
@@ -42,4 +45,23 @@ nav li a:hover{
     color: white;
     border: none;
     background: #131318;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    #section-title{
+        font-size: 1.375rem;
+    }
+
+    #mobile-hide{
+        display: none;
+    }
 }
